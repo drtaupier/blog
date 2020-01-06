@@ -1,0 +1,22 @@
+@import "style.css";
+
+.container{
+    max-width: 960px;
+    margin: 20px auto;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas: "header header"
+                          "nav nav"
+                          "anuncio anuncio"
+                        "contenido contenido"
+                        "footer footer";
+}
+
+#contenido1{
+    display: grid;
+    grid-auto-columns: repeat(1,1fr);
+    grid-template-rows: repeat(8, auto);
+    grid-template-areas: "contenedor-contenido";
+}
