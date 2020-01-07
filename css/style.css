@@ -10,36 +10,21 @@ body{
     background: #f3f3f3;
 }
 
-.header{
-    max-width: 960px;
-    margin-top: 20px;
-    grid-area: header;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
 
-.header h1, p{
+
+.header>h1{
     font-family: 'Quicksand', sans-serif;
     font-weight: 100;
-    color: #535353;
+    color: #021400;
     margin-left: 20px;
     font-size: 3em;
+    letter-spacing: 5px;
 }
 
-.header p{
+.header>p{
     font-size: 1.2em;
-}
-
-.nav{
-    max-width: 960px;
-    grid-area: nav;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-bottom: 1px solid #ccc;
-    border-top: 1px solid #ccc;
+    font-family: "Quicksand", sans-serif;
+    color: #021400;
 }
 
 .nav ul li, a{
@@ -53,27 +38,9 @@ body{
     color: #ccc;
 }
 
-.anuncio{
-    max-width: 960px;
-    width: 960px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #f3f3f3;
-    height: 60px;
-    grid-area: anuncio;
-    background: #60adf0;
-}
-
 .anuncio>p{
     font-size: 1em;
     color: #f3f3f3;
-}
-
-.contenido{
-    max-width: 960px;
-    width: 960px;
-    grid-area: contenido;
 }
 
 .contenedor-info{
@@ -92,33 +59,33 @@ body{
     margin-bottom: 25px;
 }
 
-.contenedor-info:nth-child(1)>.imagen{
-    background-image: url('../pictures/imag1.jpg');
-}
-
-.contenedor-info:nth-child(2)>.imagen{
-    background-image: url('../pictures/imagen1.jpg');
-}
-
-.contenedor-info:nth-child(3)>.imagen{
-    background-image: url('../pictures/imagen2.jpg');
-}
-
 .contenedor-info>.info{
     width: 50%;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 50px 20px 0 10px;
 }
 
-.footer{
-    grid-area: footer;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #000;
-    height:100px;
+.info>p{
+    font-size: 1em;
+    color: #868686;
+    text-align: justify;
+    margin-left: 20px;
+}
+
+.info>h2{
+    font-size: 1.4em;
+    font-weight: normal;
+    margin: 0 0 10px 18px;
+    color: #535353;
+}
+
+.info a{
+    font-size: 0.9em;
+    margin-left: 5px;
+    text-decoration: underline;
 }
 
 .footer p{
