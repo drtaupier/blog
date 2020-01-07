@@ -79,6 +79,45 @@ nav>ul>li,a{
     border: 1px solid #000;
 }
 
+aside .social-media{
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    flex-direction: row;
+    width: 80%;
+    height: 60px;
+    /* background: #ccc; */
+}
+
+aside .social-media ul{
+    display: flex;
+    align-items: center;
+}
+
+aside .social-media ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+    font-size: 1.5em;
+}
+
+.fa-facebook{
+    color:#3B5998 ;
+    background:#f3f3f3 ;
+}
+
+.fa-twitter{
+    color: #00acee;
+    background: #f3f3f3;
+}
+
+.fa-linkedin-in{
+    color:#0e76a8;
+    background: #f3f3f3;
+}
+
+
+/******* Article ******/
 .article{
     grid-area: article;
     padding-right: 20px;

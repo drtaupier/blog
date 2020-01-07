@@ -24,8 +24,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     color: #f3f3f3;
-    height: 60px;
+    height: 90px;
     grid-area: anuncio;
     background: #60adf0;
 }
