@@ -1,6 +1,5 @@
 @import "format.css";
 
-/******* Article ******/
 article h2{
     text-align: center;
     font-size: 1.8em;
@@ -13,5 +12,5 @@ article p{
 }
 
 article>img{
-    width: 500px;
+    height: 350px;
 }
