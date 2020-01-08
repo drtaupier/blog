@@ -45,3 +45,154 @@
     background: #000;
     height:100px;
 }
+
+@media only screen and (min-width:768px) and (max-width: 959px){
+    .container{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-areas: "header header"
+                              "nav nav"
+                              "anuncio anuncio"
+                              "contenido contenido"
+                              "footer footer";
+    }
+
+    .header{
+        width: 100%;
+    }
+
+    .anuncio{
+        width: 100%;
+    }
+
+    
+    .contenedor-info{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .contenedor-info .info{
+        padding-top: 0;
+        margin-bottom: 8px;
+    }
+}
+
+@media only screen and (max-width:767px){
+    .container{
+        width: 100vw;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-areas: "header header"
+                              "nav nav"
+                              "anuncio anuncio"
+                              "contenido contenido"
+                              "footer footer";
+    }
+
+    .header{
+        width: 100vw;
+    }
+
+    .header>h1{
+        font-size: 1.4em;
+        margin-left: 0;
+    }
+
+    .anuncio{
+        width: 100vw;
+    }
+
+    .anuncio>p{
+        text-align: center;
+    }
+    
+    .contenido{
+        width: 100vw;
+    }
+
+    .contenedor-info{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contenedor-info .imagen{
+        width: 100%;
+    }
+    
+    .contenedor-info .info{
+        padding-top: 0;
+        margin-bottom: 8px;
+        width: 100vw;
+        padding: 0 25px 0 10px;
+    }
+}
+
+@media only screen and (max-width:370px){
+    .container{
+        min-width: 319px;
+        width: 100vw;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-areas: "header header"
+                              "nav nav"
+                              "anuncio anuncio"
+                              "contenido contenido"
+                              "footer footer";
+    }
+
+    .header{
+        min-width: 319px;
+        width: 100vw;
+    }
+
+    .header>h1{
+        font-size: 1.4em;
+        margin-left: 0;
+    }
+
+    .nav{
+        min-width: 319px;
+        width: 100vw;
+    }
+
+    .anuncio{
+        min-width: 319px;
+        width: 100vw;
+    }
+
+    .anuncio>p{
+        font-size: 0.9em;
+        text-align: center;
+    }
+
+    .contenido{
+        min-width: 319px;
+        width: 100vw;
+    }
+
+    
+    .contenedor-info{
+        min-width: 319px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contenedor-info .imagen{
+        min-width: 319px;
+        width: 100%;
+    }
+    
+    .contenedor-info .info{
+        min-width: 319px;
+        padding-top: 0;
+        margin-bottom: 8px;
+        width: 100%;
+        padding: 0 30px 0 10px;
+    }
+
+    .contenedor-info .info h2{
+        text-align: center;
+    }
+
+    .footer{
+        min-width: 319px;
+        width: 100vw;
+    }
+}
