@@ -27,13 +27,10 @@ body{
     color: #021400;
 }
 
-.anuncio>.logo{
+.anuncio>p{
     display: flex;
-    flex-direction: row;
-}
-
-.anuncio p:nth-child(1){
-    font-size: 1em;
+    font-size: 0.7em;
+    color: #f3f3f3;
 }
 
 .nav ul li, a{
