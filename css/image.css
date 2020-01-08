@@ -3,9 +3,9 @@
 }
 
 .contenedor-info:nth-child(2)>.imagen{
-    background-image: url('../pictures/imagen1.jpg');
+    background-image: url('../pictures/imagen2.jpg');
 }
 
 .contenedor-info:nth-child(3)>.imagen{
-    background-image: url('../pictures/imagen2.jpg');
+    background-image: url('../pictures/javascript.jpg');
 }
