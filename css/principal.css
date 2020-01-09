@@ -125,6 +125,14 @@
     }
 }
 
+@media only screen and (max-width:645px){
+    .nav #subscribe{
+        position: relative;
+        top: 10px;
+        left: 90px;
+    }
+}
+
 @media only screen and (max-width:370px){
     .container{
         min-width: 319px;
