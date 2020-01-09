@@ -42,8 +42,8 @@ body{
     justify-content: center;
     align-items: center;
     position: relative;
-    top: 65px;
-    right: 160px;
+    top: 0px;
+    right: 140px;
 }
 
 #subscribe>a{
@@ -60,11 +60,18 @@ body{
     color: #f3f3f3;
 }
 
+.nav{
+    padding-left: 30px;
+}
 .nav ul li, a{
     display: inline-block;
-    padding: 15px;
+    padding: 12px;
     color: #535353;
     text-decoration: none;
+}
+
+nav ul li:nth-child(2){
+    margin-left: 15px;
 }
 
 .nav ul li, a:hover{
@@ -118,6 +125,12 @@ body{
 
 .footer p{
     color: #f3f3f3;
+    font-size: 0.9em;
+}
+
+.footer h3{
+    color: #f3f3f3;
+    font-weight: 500;
     font-size: 1em;
 }
 
@@ -149,3 +162,4 @@ body{
 .btn>a:hover{
     color: #f3f3f3;
 }
+
