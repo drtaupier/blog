@@ -33,6 +33,33 @@ body{
     color: #f3f3f3;
 }
 
+.nav #subscribe{
+    width: 100px;
+    height: 30px;
+    border: 1px solid #086d19;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 65px;
+    right: 160px;
+}
+
+#subscribe>a{
+    color: #535353;
+    font-size: 0.8em;
+}
+
+.nav #subscribe:hover{
+    background: #086d19;
+    transition: ease 0.3s;
+}
+
+#subscribe>a:hover{
+    color: #f3f3f3;
+}
+
 .nav ul li, a{
     display: inline-block;
     padding: 15px;
@@ -88,14 +115,37 @@ body{
     color: #535353;
 }
 
-.info a{
-    font-size: 0.9em;
-    margin-left: 5px;
-    text-decoration: underline;
-}
 
 .footer p{
     color: #f3f3f3;
     font-size: 1em;
 }
 
+.btn{
+    width: 110px;
+    height: 33px;
+    border: #488adb 1px solid;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 18px;
+    top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn>a{
+    color: #535353;
+    font-size: 0.9em;
+}
+
+.btn:hover{
+    background: #488adb;
+    transition: ease 0.3s;
+    
+}
+
+.btn>a:hover{
+    color: #f3f3f3;
+}
