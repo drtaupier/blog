@@ -145,7 +145,7 @@ nav>ul>li,a{
     .container{
         width: 100vw;
         height: 0;
-        margin: auto;
+        margin: none;
         grid-template-columns: 100vw;
         grid-template-rows: repeat(3, auto);
         grid-template-areas: "header"
@@ -211,6 +211,7 @@ nav>ul>li,a{
 @media only screen and (min-width:601px) and (max-width:767px){
     .container{
         width: 100vw;
+        margin: none;
         height: 0;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(3, auto);
@@ -278,6 +279,7 @@ nav>ul>li,a{
 @media only screen and (min-width:545px) and (max-width:600px){
     .container{
         width: 100vw;
+        margin: 0;
         height: 0;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(3, auto);
@@ -344,6 +346,7 @@ nav>ul>li,a{
 @media only screen and (min-width:371px) and (max-width:544px){
     .container{
         /* min-width: 319px; */
+        
         width: 100vw;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(3, auto);

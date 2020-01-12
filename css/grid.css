@@ -3,7 +3,7 @@
 @import "image.css";
 
 .container{
-     margin:auto;
+        margin:auto;
         display: grid;
         /* grid-gap: 10px; */
         justify-items: center; 
